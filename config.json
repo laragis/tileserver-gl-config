@@ -1,0 +1,33 @@
+{
+  "options": {
+    "paths": {
+      "root": "/data",
+      "fonts": "fonts",
+      "sprites": "sprites",
+      "icons": "icons",
+      "styles": "styles",
+      "mbtiles": "data",
+      "pmtiles": "data",
+      "files": "files"
+    }
+  },
+  "styles": {
+    "streets": {
+      "style": "laragis-streets/style.json"      
+    },
+    "maptiler-streets": {
+      "style": "maptiler-streets/style.json"      
+    },
+    "osm": {
+      "style": "osm/style.json"
+    },
+    "osm-liberty": {
+      "style": "osm-liberty/style.json"
+    }
+  },
+  "data": {
+    "basic": {
+      "mbtiles": "basic_0_16.mbtiles"
+    }
+  }
+}

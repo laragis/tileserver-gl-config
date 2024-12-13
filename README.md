@@ -1,1 +1,1 @@
-# tileserver-gl-config
+# TileServer GL Config
