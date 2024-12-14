@@ -9,12 +9,10 @@
       "mbtiles": "data",
       "pmtiles": "data",
       "files": "files"
-    }
+    },
+    "serveAllFonts": true
   },
   "styles": {
-    "streets": {
-      "style": "laragis-streets/style.json"      
-    },
     "maptiler-streets": {
       "style": "maptiler-streets/style.json"      
     },
@@ -26,8 +24,6 @@
     }
   },
   "data": {
-    "basic": {
-      "mbtiles": "basic_0_16.mbtiles"
-    }
+ 
   }
 }
