@@ -13,6 +13,18 @@
     "serveAllFonts": true
   },
   "styles": {
+    "laragis-streets": {
+      "style": "laragis-streets/style.json"      
+    },
+    "laragis-traffic": {
+      "style": "laragis-traffic/style.json"      
+    },
+    "laragis-only-traffic": {
+      "style": "laragis-only-traffic/style.json"      
+    },
+    "laragis-only-traffic-dark": {
+      "style": "laragis-only-traffic-dark/style.json"      
+    },
     "maptiler-streets": {
       "style": "maptiler-streets/style.json"      
     },
@@ -24,6 +36,8 @@
     }
   },
   "data": {
- 
+    "basic": {
+      "mbtiles": "basic.mbtiles"
+    }
   }
 }
