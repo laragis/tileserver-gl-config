@@ -37,7 +37,10 @@
   },
   "data": {
     "basic": {
-      "mbtiles": "basic.mbtiles"
+      "mbtiles": "basic_0_16.mbtiles"
+    },
+    "satellite": {
+      "mbtiles": "satellite_0_18.mbtiles"
     }
   }
 }
