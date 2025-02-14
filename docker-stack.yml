@@ -1,0 +1,17 @@
+volumes:
+  tileserver_gl_data:
+
+services:
+  tileserver-gl-styles:
+    image: "repo-registry.laragis.vn/gtelmaps/tileserver-gl-styles:latest"
+    volumes:
+      - tileserver_gl_data:/data
+
+  tileserver-gl:
+    image: "repo-registry.laragis.vn/3rd/maptiler/tileserver-gl:latest"
+    ports:
+      - "8686:8080"
+    volumes:
+      - tileserver_gl_data:/data
+      - ./mbtiles:/data/data
+      - ./config/config.json:/data/config.json

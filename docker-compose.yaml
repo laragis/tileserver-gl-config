@@ -2,25 +2,32 @@ volumes:
   styles:
     name: tileserver-gl-style
 
+networks:
+  default:
+
 services:
   tileserver-gl-styles:
     image: "ttungbmt/tileserver-gl-styles:latest"
     volumes:
       - styles:/data
+    networks:
+      - default
 
   tileserver-gl:
     image: "maptiler/tileserver-gl:latest"
+    ports:
+      - "8585:8080"
     command:
       - --port
-      - "${TPORT:-8080}"
+      - "8585:-8080"
       - --config
-      - "/etc/tileserver-gl/config.json"
+      - "/data/config.json"
       # - --public_url
       # - "https://maptiler.laragis.vn"
       # - --verbose
-    ports:
-      - "${TPORT:-8080}:${TPORT:-8080}"
     volumes:
       - styles:/data
-      - ./data:/data/data
-      - ./config.json:/etc/tileserver-gl/config.json
+      - ./mbtiles:/data/data
+      - ./config/config.json:/data/config.json
+    networks:
+      - default
