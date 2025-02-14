@@ -14,19 +14,19 @@
   },
   "styles": {
     "laragis-streets": {
-      "style": "laragis-streets/style.json"      
+      "style": "laragis-streets/style.json"
     },
     "laragis-traffic": {
-      "style": "laragis-traffic/style.json"      
+      "style": "laragis-traffic/style.json"
     },
     "laragis-only-traffic": {
-      "style": "laragis-only-traffic/style.json"      
+      "style": "laragis-only-traffic/style.json"
     },
     "laragis-only-traffic-dark": {
-      "style": "laragis-only-traffic-dark/style.json"      
+      "style": "laragis-only-traffic-dark/style.json"
     },
     "maptiler-streets": {
-      "style": "maptiler-streets/style.json"      
+      "style": "maptiler-streets/style.json"
     },
     "osm": {
       "style": "osm/style.json"

@@ -19,7 +19,7 @@ services:
       - "8585:8080"
     command:
       - --port
-      - "8585:-8080"
+      - "8080"
       - --config
       - "/data/config.json"
       # - --public_url
